@@ -205,6 +205,7 @@ TARGET_USE_SDCLANG := true
 
 # RIL
 # TARGET_RIL_VARIANT := caf
+BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
